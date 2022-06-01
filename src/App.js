@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Section from './components/Section';
 import SmallSection from './components/SmallSection';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer';
 import { Data } from './components/Data';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <SmallSection/>
         <CreamSection/>
         <Carousel slides={Data}/>
+        <Footer/>
     </div>
   );
 }

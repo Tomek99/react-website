@@ -25,3 +25,32 @@
         }
     }
 }
+
+.carousel {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.carousel.active {
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.data-item {
+    color: $main-color;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .texts {
+        margin-top: 1rem;
+        p {
+            margin: 2rem;
+        }
+        
+    }
+    img {
+        width: 40%;
+        margin-top: 1rem;
+        
+    }
+}

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import '../styles/Carousel.scss'
 import {Data} from './Data'
-import {ArrowLeftOutlined} from '@material-ui/icons'
+import {ArrowLeftOutlined, ArrowRightOutlined} from '@material-ui/icons'
 
 function Carousel({slides}) {
     
@@ -12,8 +12,8 @@ function Carousel({slides}) {
   return (
     <div className='carousel-main'>
         <div className="arrows">
-            <ArrowLeftOutlined className='left'/>
-            <ArrowLeftOutlined className='right'/>
+            <ArrowLeftOutlined className='left' onClick={() => setCurrent(current === 0 ? length - 1: current - 1)}/>
+            <ArrowRightOutlined className='right' onClick={() => setCurrent(current === length - 1 ? 0 : current + 1)}/>
         </div>
 
         {Data.map((slide, index) => {
