@@ -6,7 +6,7 @@ import Footer from './Footer'
 
 function Women() {
   return (
-    <div className='className="App"'>
+    <div>
       <Header />
       <div className="women-section">
         <div className="headerWomen">
