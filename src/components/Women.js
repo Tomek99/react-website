@@ -1,14 +1,15 @@
 import React from "react";
 import "../styles/Women.scss";
 import Header from "./Header";
-import "../App.scss";
+import Footer from './Footer'
+
 
 function Women() {
   return (
-    <section className='className="App"'>
+    <div className='className="App"'>
       <Header />
       <div className="women-section">
-        <div className="header">
+        <div className="headerWomen">
           <h1>Women Collection</h1>
           <p>Available in 2022</p>
         </div>
@@ -17,7 +18,8 @@ function Women() {
           <button>Take a look</button>
         </div>
       </div>
-    </section>
+      <Footer/>
+    </div>
   );
 }
 

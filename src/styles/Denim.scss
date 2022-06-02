@@ -1,0 +1,32 @@
+@import '../styles/colors';
+@import '../styles/mixins';
+@import '../styles/buttons';
+@import '../styles/mixins';
+.denim-section {
+    background: url("../assets/mnz-m1m2EZOZVwA-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: $main-color;
+    
+    .headerDenim {
+        @include flex-center;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+
+    .look {
+        @include flex-center;
+        flex-direction: column;
+        font-size: 5rem;
+        margin: 15rem;
+        button {
+            @include button;
+           
+        }
+
+        button:hover {
+            @include hover;
+        }
+    }
+}

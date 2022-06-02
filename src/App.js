@@ -1,4 +1,4 @@
-import './App.scss';
+
 import CreamSection from './components/CreamSection';
 import Header from './components/Header';
 import Section from './components/Section';
@@ -9,7 +9,7 @@ import { Data } from './components/Data';
 
 function App() {
   return (
-    <div className="App">
+    <div>
         <Header/>
         <Section/>
         <SmallSection/>
