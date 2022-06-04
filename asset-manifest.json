@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-website/static/css/main.39dac333.css",
-    "main.js": "/react-website/static/js/main.4f44f95b.js",
-    "static/media/giftshop.jpg": "/react-website/static/media/giftshop.b279bdeb1927d6d794d1.jpg",
-    "static/media/mnz-m1m2EZOZVwA-unsplash.jpg": "/react-website/static/media/mnz-m1m2EZOZVwA-unsplash.d4814652075315f2e3d6.jpg",
-    "static/media/main.jpg": "/react-website/static/media/main.d89d657ff4c7f1385cb4.jpg",
-    "static/media/men-style-trend.jpg": "/react-website/static/media/men-style-trend.7d4344663fe3d63e0d8b.jpg",
-    "static/media/bus.png": "/react-website/static/media/bus.100333e2ca2b0c746798.png",
-    "static/media/cart.png": "/react-website/static/media/cart.79bc52d42ee692f559d1.png",
-    "static/media/gift.png": "/react-website/static/media/gift.4d17bcf3bb9fa143e32b.png",
-    "static/media/box.png": "/react-website/static/media/box.48450764938faefab9c5.png",
-    "index.html": "/react-website/index.html",
-    "main.39dac333.css.map": "/react-website/static/css/main.39dac333.css.map",
-    "main.4f44f95b.js.map": "/react-website/static/js/main.4f44f95b.js.map"
+    "main.css": "/mywebsite/static/css/main.acec8865.css",
+    "main.js": "/mywebsite/static/js/main.134b7cb7.js",
+    "static/media/giftshop.jpg": "/mywebsite/static/media/giftshop.b279bdeb1927d6d794d1.jpg",
+    "static/media/mnz-m1m2EZOZVwA-unsplash.jpg": "/mywebsite/static/media/mnz-m1m2EZOZVwA-unsplash.d4814652075315f2e3d6.jpg",
+    "static/media/main.jpg": "/mywebsite/static/media/main.d89d657ff4c7f1385cb4.jpg",
+    "static/media/men-style-trend.jpg": "/mywebsite/static/media/men-style-trend.7d4344663fe3d63e0d8b.jpg",
+    "static/media/bus.png": "/mywebsite/static/media/bus.100333e2ca2b0c746798.png",
+    "static/media/cart.png": "/mywebsite/static/media/cart.79bc52d42ee692f559d1.png",
+    "static/media/gift.png": "/mywebsite/static/media/gift.4d17bcf3bb9fa143e32b.png",
+    "static/media/box.png": "/mywebsite/static/media/box.48450764938faefab9c5.png",
+    "index.html": "/mywebsite/index.html",
+    "main.acec8865.css.map": "/mywebsite/static/css/main.acec8865.css.map",
+    "main.134b7cb7.js.map": "/mywebsite/static/js/main.134b7cb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.39dac333.css",
-    "static/js/main.4f44f95b.js"
+    "static/css/main.acec8865.css",
+    "static/js/main.134b7cb7.js"
   ]
 }
