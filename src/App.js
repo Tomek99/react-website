@@ -10,12 +10,12 @@ import { Data } from './components/Data';
 function App() {
   return (
     <div>
-        <Header/>
-        <Section/>
-        <SmallSection/>
-        <CreamSection/>
-        <Carousel slides={Data}/>
-        <Footer/>
+      <Header />
+      <Section />
+      <SmallSection />
+      <CreamSection />
+      <Carousel slides={Data} />
+      <Footer />
     </div>
   );
 }
