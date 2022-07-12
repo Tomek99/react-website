@@ -2,38 +2,19 @@
 @import './buttons';
 
 .forms {
-    background-color: $gray-color;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+   
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-   
-
-    form {
-        color: $main-color;
-        font-size: 20px;
-        text-align: center;
-        display: block;
-        width: 50%;
-    }
-
-    label {
-        text-transform: uppercase;
-    }
-
-    input {
-        width:  100%;
-        padding: 1rem;
-        margin: 1rem;
-    }
+    align-items: center; 
 
     button {
-        @include button;
+        width: 100%;
     }
-    button:hover {
-        @include hover;
-    }
+}
+h1.log-in {
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 15% 0 1% 0;
 }

@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 import "../styles/TheGiftShop.scss";
 
 export default function TheGiftShop() {
   return (
-    <div className="giftShopSection">
+    <div>
       <Header />
-      <div>
+      <div className="giftShopSection">
         <div className="giftShopHeader">
           <h1>The Gift Shop</h1>
           <p>Available in 2022</p>
@@ -17,6 +18,7 @@ export default function TheGiftShop() {
           <button>Take a look</button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

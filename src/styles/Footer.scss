@@ -2,7 +2,6 @@
 
 .footer {
     background-color: $cream-color;
-    background-color: #24262b;
     padding: 70px 0;
 
     .container {
@@ -19,7 +18,7 @@
 
                 h4 {
                     font-size: 18px;
-                    color: #ffffff;
+                    color: $gray-color;
                     text-transform: capitalize;
                     margin-bottom: 35px;
                     font-weight: 500;
@@ -47,10 +46,10 @@
                     li a {
                         font-size: 16px;
                         text-transform: capitalize;
-                        color: #ffffff;
+                        color: #bbbbbb;
                         text-decoration: none;
                         font-weight: 300;
-                        color: #bbbbbb;
+                    
                         display: block;
                         transition: all 0.3s ease;
                     }
@@ -61,7 +60,7 @@
                     }
                 }
 
-                .social-links a{
+                .social-links a {
                     display: inline-block;
                     height: 40px;
                     width: 40px;
@@ -70,16 +69,16 @@
                     text-align: center;
                     line-height: 40px;
                     border-radius: 50%;
-                    color: #ffffff;
+                    color: #bbbbbb;
                     transition: all 0.5s ease;
               }
 
               .social-links a:hover {
-                  color: #24262b;
-                  background-color: #ffffff;
+                  color: #ffffff;
+                  background-color: $orange-color;
               }
             }
-            
+
             @media(max-width: 767px) {
                 .footer-col {
                     width: 50%;

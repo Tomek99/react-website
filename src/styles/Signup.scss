@@ -2,42 +2,22 @@
 @import './buttons';
 
 .signup-main {
-    background-color: $gray-color;
     width: 100%;
-    height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 
-    form {
-        color: $main-color;
-        font-size: 20px;
-        text-align: center;
-        display: block;
-        width: 50%;
-
-        label {
-            text-transform: uppercase;
-        }
-    
-        input {
-            width:  100%;
-            padding: 1rem;
-            margin: 1rem;
-        }
-        
-        div {
-            color: #ff0000;
-        }
-
-        button {
-            @include button;
-        }
-
-        button:hover {
-            @include hover;
-        }
+    button {
+        margin-top: 10px;
+        width: 100%;
     }
+
+}
+
+h1.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 15% 0 1% 0;
 }
